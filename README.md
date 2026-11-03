@@ -1,15 +1,11 @@
-# Lucas Ulibarri — Portfolio
+# Lucas's Homepage
 
-Personal portfolio at https://lukovsky1.github.io.
+https://lukovsky1.github.io — an early-web-style personal homepage.
 
-A responsive, static website built with HTML and CSS. No dependencies or build step.
+Static HTML and CSS; no dependencies or build step. Edit `index.html` for content, `styles.css` for presentation, and `Lucas_Ulibarri_Resume.pdf` for the resume download.
 
-## Edit
+Preview: `python3 -m http.server 8000`, then visit http://localhost:8000.
 
-- `index.html`: project descriptions, experience, and links
-- `styles.css`: layout, colors, and responsive styling
-- `Lucas_Ulibarri_Resume.pdf`: downloadable resume
+GitHub Pages publishes the root of `main`. Push to update the website.
 
-Preview locally with `python3 -m http.server 8000`, then visit http://localhost:8000.
-
-GitHub Pages publishes the root directory of the `main` branch. Push to `main` to update the site.
+Downloaded PNG assets and their licenses are documented in [assets/CREDITS.md](assets/CREDITS.md). Visible credits are also included in the page footer.
