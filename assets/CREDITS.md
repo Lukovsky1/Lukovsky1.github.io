@@ -1,6 +1,10 @@
-# Downloaded PNG assets
+# Favicon attribution
 
-- `computer.png`, `folder.png`, `email.png`, `disk.png`, `music.png`: Silk icons by Mark James. CC BY 2.5. Unmodified PNGs from https://github.com/legacy-icons/famfamfam-silk/tree/master/dist/png . Original site: http://www.famfamfam.com/lab/icons/silk/ . License: https://creativecommons.org/licenses/by/2.5/ . Original license notice in SILK-LICENSE.md.
-- `stars.png`: Starfield background by Sauer2, CC0. Unmodified PNG from https://opengameart.org/sites/default/files/bg_1_1.png . Source and license: https://opengameart.org/content/starfield-background .
+`computer.png`: unmodified Silk icon by Mark James, licensed under CC BY 2.5.
 
-Downloaded November 3, 2026. Icons are displayed at their native 16 × 16 size. Text badges are implemented locally in HTML/CSS.
+- Source: https://github.com/legacy-icons/famfamfam-silk/blob/master/dist/png/computer.png
+- Original icon collection: http://www.famfamfam.com/lab/icons/silk/
+- License: https://creativecommons.org/licenses/by/2.5/
+- Original notice: SILK-LICENSE.md
+
+This is the only image used on the homepage. Visible credit appears in the footer.

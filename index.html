@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="Lucas Ulibarri's personal homepage. Computer science, Vulkan, Vim, and things I'm building at Baylor.">
-<meta name="theme-color" content="#000033">
-<title>Welcome to Lucas's Homepage!</title>
+<meta name="theme-color" content="#000080">
+<title>Lucas C.M. Ulibarri</title>
 <link rel="icon" href="assets/computer.png" type="image/png">
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,33 +13,59 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="page">
 <header>
-<p class="welcome">★ WELCOME TO MY LITTLE CORNER OF THE INTERNET ★</p>
-<h1>Lucas's Homepage</h1>
-<p class="subtitle">C++ programmer &nbsp; / &nbsp; Baylor student &nbsp; / &nbsp; saxophone player</p>
-<nav class="top-links" aria-label="Quick links">[ <a href="#about">about me</a> | <a href="#projects">my projects</a> | <a href="Lucas_Ulibarri_Resume.pdf">resume.pdf</a> | <a href="#contact">e-mail</a> ]</nav>
+<h1>Lucas C.M. Ulibarri</h1>
+<p class="subtitle">C++ · graphics · native software</p>
+<nav aria-label="Main navigation">
+<a href="#about">About</a>
+<a href="#projects">Projects</a>
+<a href="#elsewhere">Outside of Programming</a>
+<a href="#contact">Contact</a>
+</nav>
 </header>
-<div class="layout">
-<aside>
-<section class="window"><h2 class="titlebar"><img src="assets/folder.png" alt="" width="16" height="16"> Site directory</h2><div class="inside"><nav aria-label="Site directory"><ul class="directory"><li><a href="#about">About me</a></li><li><a href="#projects">Programming projects</a></li><li><a href="#elsewhere">Away from the keyboard</a></li><li><a href="Lucas_Ulibarri_Resume.pdf">Download my resume</a></li><li><a href="#contact">Get in touch</a></li></ul></nav></div></section>
-<section class="window"><h2 class="titlebar">Quick info</h2><div class="inside"><dl><dt>Name:</dt><dd>Lucas C.M. Ulibarri</dd><dt>Location:</dt><dd>Waco, Texas</dd><dt>School:</dt><dd>Baylor University</dd><dt>Graduating:</dt><dd>December 2027</dd><dt>Online as:</dt><dd><a href="https://github.com/Lukovsky1">Lukovsky1</a></dd></dl></div></section>
-<section class="window"><h2 class="titlebar">The toolbox</h2><div class="inside toolbox"><p>C++ · C · Java<br>Python · Bash · Swift</p><hr><p>Linux · Git · CMake<br>Vulkan · Vim / Neovim</p></div></section>
-<div class="badges" aria-label="Website badges"><span class="badge html">&lt;/&gt; HTML<br><b>still works!</b></span><a class="badge github" href="https://github.com/Lukovsky1">find me on<br><b>GITHUB</b></a><span class="badge vim">:wq<br><b>VIM FRIENDLY</b></span><span class="badge web">small page<br><b>BIG INTERNET</b></span></div>
-<p class="sidebar-note">Best viewed with a browser.<br>Any browser, really.</p>
-</aside>
-<main id="main">
-<section id="about" class="window"><h2 class="titlebar"><img src="assets/computer.png" alt="" width="16" height="16"> hello_world.txt</h2><div class="inside intro"><h2>Hi, I'm Lucas!</h2><p>Welcome to my homepage. I'm studying Computer Science (Software Engineering) at Baylor University. This is where I keep links to the things I'm working on.</p><p>I like digging into how software works, especially graphics and native desktop tools. Lately that means writing a renderer in C++ and Vulkan, and bringing Vim commands to macOS text fields.</p><p>Have a look around. The source code is on <a href="https://github.com/Lukovsky1">my GitHub</a>, and you can grab <a href="Lucas_Ulibarri_Resume.pdf">my resume here</a>.</p><div class="notice"><strong>What's on the workbench?</strong><br>Custom Vulkan renderer — GPU resource management, rendering, and learning as I go.</div></div></section>
-<section id="projects" class="window"><h2 class="titlebar"><img src="assets/disk.png" alt="" width="16" height="16"> C:\Lucas\Projects\</h2><div class="inside"><p class="section-note">A few things I've built, or am still building.</p>
-<article><h3><img src="assets/folder.png" alt="" width="16" height="16"> 01. Custom Vulkan Renderer</h3><p class="date">May 2026 – present | C++, Vulkan, Slang, GLFW, CMake</p><p>I'm building a renderer from scratch to learn more about real-time graphics and low-level GPU programming.</p><p>So far: a dynamic-rendering pipeline, vertex and index buffers, descriptor sets, frame synchronization, and shader compilation through CMake. I'm also integrating Vulkan-Hpp RAII wrappers for resource management.</p><p>» <a href="https://github.com/Lukovsky1/GameEngine">Browse the code</a></p></article>
-<hr>
-<article><h3><img src="assets/folder.png" alt="" width="16" height="16"> 02. VimAnywhere</h3><p class="date">September 2026 | Swift, SwiftUI, AppKit, CoreGraphics</p><p>Vim-style navigation and editing in text fields across macOS applications. An early prototype, with Normal and Insert modes and multi-key commands like <code>dd</code>, <code>dw</code>, and <code>gg</code>.</p><p>It uses keyboard event taps and the Accessibility API to figure out which text field is focused, while keeping normal macOS Command shortcuts working.</p><p>» <a href="https://github.com/Lukovsky1/VimAnywhereMacOS27">Browse the code</a></p></article>
-<hr>
-<article><h3><img src="assets/folder.png" alt="" width="16" height="16"> 03. Rabbit Hole</h3><p class="date">October 2026 | Wacode Hackathon · team project</p><p>A learning platform I co-developed with a team: diagnostic assessments, concept roadmaps, lessons, and quizzes. We connected a Next.js frontend to Flask APIs, with SQLite storing accounts and progress.</p><p>React Flow handles the visual roadmaps. Server-side grading and prerequisites determine which concepts unlock next.</p><p><small>Built with TypeScript, Next.js, React Flow, Python, Flask, and SQLite.</small></p></article>
-</div></section>
-<section id="elsewhere" class="window"><h2 class="titlebar"><img src="assets/music.png" alt="" width="16" height="16"> Away from the keyboard</h2><div class="inside"><h3>Campus networking</h3><p>I've worked with Baylor ITS Networking since fall 2024. I handle network activation tickets, survey WiFi coverage, provision network jacks, and help keep network closets organized.</p><h3>Golden Wave Band</h3><p>I'm also a squad leader in the saxophone section. I help fellow musicians stay prepared for rehearsals and performances and keep everyone in the loop.</p></div></section>
-<section id="contact" class="window"><h2 class="titlebar"><img src="assets/email.png" alt="" width="16" height="16"> You've got links!</h2><div class="inside"><p>Want to talk about a project or get in touch?</p><p><strong>E-mail:</strong> <a href="mailto:lucas_ulibarri2@baylor.edu">lucas_ulibarri2@baylor.edu</a></p><p>[ <a href="https://github.com/Lukovsky1">GitHub</a> ] &nbsp; [ <a href="https://www.linkedin.com/in/lucas-ulibarri27">LinkedIn</a> ] &nbsp; [ <a href="Lucas_Ulibarri_Resume.pdf" download>Resume PDF</a> ]</p></div></section>
+<main id="main" tabindex="-1">
+<section id="about" aria-labelledby="about-heading">
+<h2 id="about-heading">About</h2>
+<p>I'm a Computer Science student at Baylor University, graduating in December 2027. I'm interested in C++, graphics programming, and native software development.</p>
+<a href="Lucas_Ulibarri_Resume.pdf">Resume (PDF)</a>
+</section>
+<section id="projects" aria-labelledby="projects-heading">
+<h2 id="projects-heading">Projects</h2>
+<article>
+<h3>Custom Vulkan Renderer</h3>
+<p class="stack">C++ · Vulkan · Slang · GLFW · CMake</p>
+<p>A real-time renderer with a dynamic-rendering pipeline, GPU buffers, and frame synchronization. Shader compilation is automated through CMake, and I'm integrating Vulkan-Hpp RAII wrappers for GPU resource management.</p>
+<a href="https://github.com/Lukovsky1/GameEngine">GitHub — Custom Vulkan Renderer</a>
+</article>
+<article>
+<h3>VimAnywhere</h3>
+<p class="stack">Swift · SwiftUI · AppKit · CoreGraphics</p>
+<p>A native macOS prototype that brings Vim-style navigation and editing to text fields across applications. Keyboard event taps and the Accessibility API support modal editing and multi-key commands while preserving macOS Command shortcuts.</p>
+<a href="https://github.com/Lukovsky1/VimAnywhereMacOS27">GitHub — VimAnywhere</a>
+</article>
+<article>
+<h3>Rabbit Hole</h3>
+<p class="stack">TypeScript · Next.js · React Flow · Python / Flask · SQLite</p>
+<p>A learning platform co-developed at the Wacode Hackathon, with assessments, interactive concept roadmaps, lessons, and quizzes. Flask APIs handle grading and prerequisite-based progression, while SQLite stores accounts and learning progress.</p>
+</article>
+</section>
+<section id="elsewhere" aria-labelledby="elsewhere-heading">
+<h2 id="elsewhere-heading">Outside of Programming</h2>
+<h3>Baylor ITS Networking</h3>
+<p>Since fall 2024, I've handled campus network activation tickets, surveyed WiFi coverage, and helped provision and maintain wired network infrastructure.</p>
+<h3>Golden Wave Band</h3>
+<p>As a saxophone squad leader, I help fellow musicians prepare for rehearsals and performances and keep the section coordinated.</p>
+</section>
+<section id="contact" aria-labelledby="contact-heading">
+<h2 id="contact-heading">Contact</h2>
+<ul class="contact-links">
+<li><a href="mailto:lucas_ulibarri2@baylor.edu">lucas_ulibarri2@baylor.edu</a></li>
+<li><a href="https://github.com/Lukovsky1">GitHub</a></li>
+<li><a href="https://www.linkedin.com/in/lucas-ulibarri27">LinkedIn</a></li>
+<li><a href="Lucas_Ulibarri_Resume.pdf" download>Download resume (PDF)</a></li>
+</ul>
+</section>
 </main>
-</div>
-<footer><div class="construction">/// ALWAYS UNDER CONSTRUCTION ///</div><p>Thanks for stopping by! &nbsp; <a href="#top">Back to top ↑</a></p><p>Last updated: November 3, 2026 · Lucas Ulibarri</p><p class="credits">PNG icons: <a href="https://github.com/legacy-icons/famfamfam-silk">Silk by Mark James</a> (<a href="https://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a>).<br>Starfield: <a href="https://opengameart.org/content/starfield-background">Sauer2 / OpenGameArt</a> (CC0).</p></footer>
+<footer>Favicon: <a href="https://github.com/legacy-icons/famfamfam-silk">Silk by Mark James</a> · <a href="https://creativecommons.org/licenses/by/2.5/">CC BY 2.5</a></footer>
 </div>
 </body>
 </html>
